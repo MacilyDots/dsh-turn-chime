@@ -1,0 +1,6 @@
+# dsh-turn-chime bundle patch: one insert row activating the plugin.
+# The host half is a stub that only serves the diagnostics log route; all
+# listening and playback live in the client half (lib/client.js).
+- insert:
+    - id: turn-chime
+      name: 'dsh-turn-chime'
