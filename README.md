@@ -1,5 +1,7 @@
 # dsh-turn-chime
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-en.svg)](https://dsh.market/)
+
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 Plays a chime when a conversation task **actually finishes**. The decision is made on the host side, the sound is emitted in the client, and the tone is synthesized on the fly with Web Audio — no audio files involved.

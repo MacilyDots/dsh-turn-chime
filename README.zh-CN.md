@@ -1,5 +1,7 @@
 # dsh-turn-chime
 
+[![DSH Market](https://raw.githubusercontent.com/2BingLing/dsh-market/master/assets/readme/badge-listed-zh.svg)](https://dsh.market/)
+
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 对话任务**真正跑完**时播放一声提示音。判定在宿主侧、发声在客户端，音色用 Web Audio 现场合成，不带任何音频文件。
