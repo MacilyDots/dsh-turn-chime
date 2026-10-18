@@ -9,7 +9,7 @@
  * 用法：
  *   node install.mjs                  # 装进 %DSH_HOME%\profiles\desktop
  *   node install.mjs web              # 装进指定 profile（可给多个）
- *   node install.mjs D:\path\profile  # 也可以直接给 profile 目录
+ *   node install.mjs X:\path\profile  # 也可以直接给 profile 目录
  */
 import { copyFileSync, existsSync, lstatSync, readFileSync, rmdirSync, symlinkSync, writeFileSync } from "node:fs";
 import { homedir } from "node:os";

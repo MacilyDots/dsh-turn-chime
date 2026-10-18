@@ -22,7 +22,7 @@ DeepSeek Harness 的 `api-session/status` 只告诉你「agent 现在忙不忙�
 ```powershell
 node install.mjs                  # 装进 %DSH_HOME%\profiles\desktop
 node install.mjs web              # 装进指定 profile（可给多个）
-node install.mjs D:\path\to\profile
+node install.mjs X:\path\to\profile
 ```
 
 脚本做三件事：往 profile 的 `package.json` 写 `file:` 依赖、往 `dsh.profile.bundles` 加插件名、在 `node_modules/<插件>` 建一个指向本仓库的 junction（所以改源码立即生效，不用再同步副本）。

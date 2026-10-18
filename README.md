@@ -22,7 +22,7 @@ Put the repository in any directory, then:
 ```powershell
 node install.mjs                  # install into %DSH_HOME%\profiles\desktop
 node install.mjs web              # install into the named profile (multiple allowed)
-node install.mjs D:\path\to\profile
+node install.mjs X:\path\to\profile
 ```
 
 The script does three things: writes a `file:` dependency into the profile's `package.json`, adds the plugin name to `dsh.profile.bundles`, and creates a junction under `node_modules/<plugin>` pointing at this repository (so source edits take effect immediately, with no copy to re-sync).

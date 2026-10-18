@@ -1,7 +1,7 @@
 {
   "name": "dsh-turn-chime",
-  "version": "0.1.0",
-  "description": "Conversation-completion chime for DeepSeek Harness: plays a short synthesized sound when a user-initiated task actually finishes — not when it is interrupted — with a settings panel for voice and volume.",
+  "version": "0.2.0",
+  "description": "Conversation-completion chime for DeepSeek Harness: plays a short synthesized sound when a user-initiated task actually finishes — not when it is interrupted — with a settings panel for voice and volume, plus an optional Windows taskbar unread-count badge.",
   "type": "module",
   "main": "./lib/index.js",
   "exports": {
@@ -45,3 +45,4 @@
     }
   }
 }
+
